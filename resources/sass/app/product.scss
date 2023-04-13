@@ -1,0 +1,239 @@
+.product-title{
+    background-image: url("../../../public/images/product-title.jpg");
+    background-size: cover;
+    min-height: 745px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom:20px;
+}
+.head-title{
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    width: 100%;
+}
+.title-description{
+    font-family: 'open-sans', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+}
+.title-wrapper{
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+.product-info{
+    margin-top: 60px;
+    display: flex;
+
+    .header{
+        font-size: 3rem;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    .sub-title{
+        margin-bottom: 15px;
+    }
+}
+.product-info-title{
+    padding: 10px;
+    width: 100%;
+}
+.product-info-img{
+    width: 365px;
+    height: 550px;
+    opacity: 80%;
+}
+.product-info-descr{
+    display: flex;
+}
+.info-icon{
+    color: #fcb502;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.product-info-descr-item{
+    width: 100%;
+    margin-right: 30px;
+    .sub-title{
+        color:white;
+        margin-bottom: 20px;
+    }
+}
+.info-p-offset{
+    margin-right: 30px;
+}
+.product-items{
+    display: flex;
+    margin-top:0px;
+    .link{
+        &:hover{
+            color: white;
+        }
+    }
+
+}
+.item-number{
+    .number {
+        font-size: 13rem;
+        color: #fcb502;
+        padding-inline: 30px;
+    }
+}
+.item-descr{
+    padding:40px;
+    .header{
+        font-size: 3rem;
+    }
+}
+.item-end{
+    justify-content: end;
+}
+.system{
+    .header{
+        width: max-content;
+    }
+    &-mid{
+        width: max-content;
+    }
+}
+.system-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .header{
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+}
+.display-flex{
+    display: flex;
+    &-between{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.algorithms{
+    font-size: 1.5rem;
+    .header{
+        color: white;
+    }
+    .sub-title{
+        color: white;
+    }
+}
+.roadmap{
+    color: white
+
+}
+.max-content{
+    width: max-content;
+}
+.cards-medium{
+    display: none;
+}
+@media (max-width: 860px) {
+    .download-mini {
+        flex-direction: column;
+    }
+    .product-info-img {
+        display: none;
+    }
+    .product-info-img-small {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-small {
+        display: none;
+    }
+}
+@media (max-width: 720px) {
+    .product-info{
+        margin-top: 30px;
+        .header{
+            font-size: 3rem;
+        }
+    }
+    .product-title {
+        background-image: url("../../../public/images/product-title.jpg");
+        background-size: cover;
+        min-height: 555px;
+    }
+    .company-title {
+        background-image: url("../../../public/images/company.jpg");
+        background-size: cover;
+        min-height: 555px;
+    }
+    .date-small {
+        display: none;
+
+    }.head-title{
+         font-size: 70px;
+     }
+    .item-descr{
+        .header{
+            font-size: 2rem;
+        }
+    }
+    .item-number{
+        .number {
+            font-size: 9rem;
+        }
+    }
+    .cards-medium{
+        display: block;
+    }
+    .roadmap-item-medium{
+        display:none;
+    }
+}
+@media (max-width: 620px) {
+    .system-wrapper {
+        .header {
+            font-size: 1.8rem;
+        }
+    }
+    .title-wrapper{
+        margin-left: 50px;
+        margin-bottom: 100px;
+    }
+    .head-title{
+        font-size: 50px;
+    }
+    .product-title {
+        background-image: url("../../../public/images/product-title.jpg");
+        background-size: cover;
+        min-height: 380px;
+    }
+    .company-title {
+        min-height: 380px;
+    }
+    .download-img{
+        display: none;
+    }
+    .cards-small{
+        display: block;
+    }
+    .cards-big{
+        display:none;
+    }
+    .product-descr-mini {
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 380px) {
+    .header-big {
+        font-size: 1.4rem;
+    }
+}
+
+

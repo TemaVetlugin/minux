@@ -1,0 +1,145 @@
+.team {
+    .display-flex {
+        justify-content: space-between;
+    }
+
+
+}
+
+.team {
+    .card {
+        background-color: #11093b;
+    }
+}
+
+.display-flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+    .card {
+        background-color: #11093b;
+        padding: 10px;
+    }
+
+
+.download {
+    .card {
+        background-color: #11093b;
+    }
+    &-title{
+        padding: 50px;
+    }
+    &-info{
+        margin: auto;
+        min-width: 150px;
+        max-width: 350px;
+        .btn{
+            min-height: 60px;
+            min-width: 150px;
+            max-width: 350px;
+            background-color: #11093b;
+            font-size: 2.2rem;
+            color: white;
+            border: 3px solid white;
+            &:hover {
+                color: white;
+                background-color: #42278c;
+            }
+        }
+    }
+}
+
+.download-img{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.previos-versions{
+    margin-top: 30px;
+    padding: 10px;
+    .header{
+        margin-top: 20px;
+        font-size: 2rem;
+        margin-left: 50px;
+    }
+}
+.feedback-form{
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    .header{
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+    .btn{
+        min-height: 30px;
+        min-width: 150px;
+        max-width: 200px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        background-color: #11093b;
+        font-size: 1rem;
+        color: white;
+        border: 2px solid white;
+        &:hover {
+            color: white;
+            background-color: #42278c;
+        }
+    }
+}
+.feedback-form-wrapper{
+
+    max-width: 750px;
+}
+.company-title{
+    background-image: url("../../../public/images/company.jpg");
+    background-size: cover;
+    min-height: 745px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom:20px;
+    .title-wrapper{
+        margin-bottom: 100px;
+    }
+}
+.cards-small{
+    display:none;
+}
+.about-us{
+    margin-top: 60px;
+    &-img{
+        max-width: 500px;
+    }
+    .header{
+        font-size: 3rem;
+    }
+}
+.roadmap-item{
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    align-items: center;
+    .year{
+        font-size: 5rem;
+        writing-mode: vertical-lr;
+        margin: 0;
+        color: #fcb502;
+    }
+    .year-normal{
+        font-size: 5rem;
+        width: max-content;
+        color: #fcb502;
+    }
+    .card{
+        max-width: 400px;
+        padding: 20px;
+    }
+}
+.line-bottom{
+    border-bottom: 3px solid white;
+}

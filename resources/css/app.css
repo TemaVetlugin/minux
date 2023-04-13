@@ -1,0 +1,39 @@
+.swiper{
+    max-width: 650px;!important;
+    height: 306px;
+    border: none;
+}
+.slider-block{
+    margin: auto;
+    max-width: 650px;!important;
+}
+.ts-swiper{
+
+    max-width: 650px;!important;
+}
+.swiper-slide{
+    text-align: center;
+    background-color: black;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.swiper-slide img{
+    width: 100%;
+max-height: 306px;
+    object-fit: cover;
+}
+
+.swiper-button-next{
+    right: -20px;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    --swiper-theme-color: white;
+}
+ .swiper-button-prev{
+    --swiper-theme-color: white;
+}
+
+

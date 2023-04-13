@@ -1,0 +1,250 @@
+// Fonts
+
+@import url('https://fonts.bunny.net/css?family=open-sans:400|playfair-display:500|roboto:400i,900');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+@import 'app/company';
+
+@import 'app/product';
+
+html, body {
+    height: 100%;
+    color: white;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-family: 'Playfair Display', serif;
+    display: block;
+    &-big{
+        margin-top: 40px;
+        font-size: 3rem;
+        margin-left: 10%;
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+.number {
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+}
+
+.sub-title {
+    font-family: 'roboto', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: italic;
+    color: #fcb502;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+
+.dark {
+    background-color: black;
+}
+.logo{
+    max-height: 40px;
+    max-width: 280px;
+}
+.light {
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+
+    a {
+        color: white;
+    }
+    &:active{
+        color: white;
+    }
+}
+.container{
+    max-width: 1140px;
+}
+.simple-link {
+    font-family: 'open-sans', sans-serif;
+    font-size: 1rem;
+    &:hover {
+        color: #fcb502;
+    }
+    &-small{
+        font-family: 'open-sans', sans-serif;
+        font-size: 0.9rem;
+        &:hover {
+            color: #fcb502;
+        }
+    }
+}
+p{
+    font-family: 'open-sans', sans-serif;
+}
+.router-link-active{
+    color:white;
+}
+.router-link-exact-active{
+    color:white;
+}
+
+
+
+.modal-shadow {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.39);
+}
+
+.modal-v {
+    background: #0f0f26;
+    border-radius: 8px;
+    padding: 55px;
+    min-width: 300px;
+    max-width: 1440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+
+    &-close {
+        border-radius: 50%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-size: 1.3rem;
+        top: 7px;
+        right: 7px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    &-title {
+        color: #0971c7;
+    }
+
+    &-content {
+        margin-top: 30px;
+    }
+
+    &-footer {
+        &__button {
+            background-color: #0971c7;
+            color: #fff;
+            border: none;
+            text-align: center;
+            padding: 8px;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 8px;
+            min-width: 150px;
+        }
+    }
+
+
+}
+.modal-v-enter-active, .modal-v-leave-active {
+    transition: opacity 0.5s
+}
+
+.modal-v-enter, .modal-v-leave-to {
+    opacity: 0
+}
+
+.table-img{
+    max-width: 200px;
+    max-height: 200px;
+    &-big{
+        max-width: 500px;
+        max-height: 500px;
+    }
+}
+@media (max-width: 500px) {
+    .header-big {
+        font-size: 2rem;
+    }
+    .simple-link{
+        font-size: 0.8rem;
+    }
+
+    .head-title{
+        font-size: 30px;
+    }
+    .title-description{
+        font-size: 0.8rem;
+    }
+    .company-title {
+        min-height: 270px;
+        .title-wrapper{
+            margin-left: 30px;
+            margin-bottom: 60px;
+        }
+    }
+    .product-title {
+        min-height: 270px;
+        .title-wrapper{
+            margin-left: 30px;
+            margin-bottom: 60px;
+        }
+        .head-title{
+            font-size: 45px;
+        }
+    }
+    .system-wrapper {
+        .header {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+    }
+    .item-number{
+        .number {
+            margin-top: 20px;
+            font-size: 6rem;
+            color: #fcb502;
+            padding-inline: 15px;
+        }
+    }
+    .descr-item{
+        .header{
+            font-size: 1.8rem;
+        }
+    }
+    .text-table-small{
+        font-size: 0.6rem;
+    }
+    .text-table-medium{
+        font-size: 0.9rem;
+    }
+    .feedback-form{
+        padding: 10px;
+    }
+    .modal-v{
+        padding: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .simple-link {
+        font-size: 0.6rem;
+    }
+}
+
