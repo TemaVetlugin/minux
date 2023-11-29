@@ -1,17 +1,20 @@
 .swiper{
-    max-width: 650px;!important;
-    height: 306px;
+    max-width: 650px;
+    max-height: 306px;
     border: none;
 }
 .slider-block{
     margin: auto;
-    max-width: 650px;!important;
+    max-width: 650px;
+    max-height: 306px;
 }
 .ts-swiper{
-
-    max-width: 650px;!important;
+    max-height: 306px;
+    max-width: 650px;
 }
 .swiper-slide{
+    max-height: 306px;
+    max-width: 650px;
     text-align: center;
     background-color: black;
     font-size: 18px;
@@ -21,19 +24,23 @@
     border: none;
 }
 .swiper-slide img{
-    width: 100%;
-max-height: 306px;
+    max-width: 650px;
+    max-height: 306px;
     object-fit: cover;
 }
 
 .swiper-button-next{
     right: -20px;
+    --swiper-theme-color: white;
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev{
     --swiper-theme-color: white;
+    color: white;
+
 }
  .swiper-button-prev{
-    --swiper-theme-color: white;
+     --swiper-theme-color: white;
+     color: white;
 }
 
 

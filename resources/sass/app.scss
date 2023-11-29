@@ -57,6 +57,10 @@ html, body {
 .logo{
     max-height: 40px;
     max-width: 280px;
+    &--large{
+        max-height: 70px !important;
+        max-width: 350px !important;
+    }
 }
 .light {
     background-color: white;
@@ -180,8 +184,19 @@ p{
     }
 }
 @media (max-width: 500px) {
+    .item-descr {
+        padding-right: 20px;
+        .header {
+            font-size: 20px;
+        }
+    }
     .header-big {
         font-size: 2rem;
+    }
+    .swiper-slide img{
+        max-width: 500px;
+        max-height: 280px;
+        object-fit: cover;
     }
     .simple-link{
         font-size: 0.8rem;
@@ -243,8 +258,44 @@ p{
     }
 }
 @media (max-width: 400px) {
+    .item-number{
+        .number {
+            margin-top: 20px;
+            font-size: 5rem;
+            color: #fcb502;
+            padding-inline: 15px;
+        }
+    }
     .simple-link {
         font-size: 0.6rem;
+    }
+}
+@media (max-width: 380px) {
+    .product-info-descr-item{
+        margin-right: 0;
+    }
+    .header-big {
+        font-size: 1.4rem;
+    }
+    .item-descr {
+        padding: 20px;
+        .header {
+            font-size: 20px;
+        }
+    }
+    .system-wrapper {
+        .header {
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+    }
+    .item-number {
+        .number {
+            margin-top: 20px;
+            font-size: 3rem;
+            color: #fcb502;
+            padding-inline: 10px;
+        }
     }
 }
 

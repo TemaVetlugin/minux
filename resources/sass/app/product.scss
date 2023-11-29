@@ -1,3 +1,7 @@
+.swiper-container{
+    max-width: 650px!important;
+    max-height: 306px;
+}
 .product-title{
     background-image: url("../../../public/images/product-title.jpg");
     background-size: cover;
@@ -18,6 +22,13 @@
     font-family: 'open-sans', sans-serif;
     font-size: 1rem;
     width: 100%;
+}
+.slider-inner__image{
+    width: 100%;
+    margin: auto;
+    display: block;
+    max-height: 306px;
+    object-fit: cover;
 }
 .title-wrapper{
     margin-left: 100px;
@@ -81,11 +92,21 @@
         color: #fcb502;
         padding-inline: 30px;
     }
+
+}
+.product-items__image{
+    max-width: 250px;
+    max-height: 250px;
+    padding-top: 40px;
 }
 .item-descr{
     padding:40px;
     .header{
         font-size: 3rem;
+    }
+    &-link{
+        color: white !important;
+        font-size: 20px;
     }
 }
 .item-end{
@@ -162,6 +183,10 @@
             font-size: 3rem;
         }
     }
+    .product-items--flex{
+        flex-direction: column;
+        align-items: center;
+    }
     .product-title {
         background-image: url("../../../public/images/product-title.jpg");
         background-size: cover;
@@ -196,10 +221,22 @@
     }
 }
 @media (max-width: 620px) {
+    .item-number {
+        .number {
+            margin-top: 30px;
+            font-size: 5rem;
+            color: #fcb502;
+            padding-inline: 10px;
+        }
+    }
+
     .system-wrapper {
         .header {
             font-size: 1.8rem;
         }
+    }
+    .item-descr-link{
+        font-size: 16px;
     }
     .title-wrapper{
         margin-left: 50px;
@@ -230,9 +267,48 @@
     }
 
 }
+
+@media (max-width: 430px) {
+    .item-number{
+        .number {
+            margin-top: 20px;
+            font-size: 4rem;
+            color: #fcb502;
+            padding-inline: 10px;
+        }
+    }
+    .header-big {
+        font-size: 1.4rem;
+    }
+    .item-descr{
+        .header{
+            font-size: 24px;
+        }
+    }
+}
+
 @media (max-width: 380px) {
     .header-big {
         font-size: 1.4rem;
+    }
+    .item-descr{
+        .header{
+            font-size: 20px;
+        }
+    }
+    .item-number{
+        .number {
+            margin-top: 10px;
+            font-size: 3rem;
+            color: #fcb502;
+            padding-inline: 10px;
+        }
+    }
+    .item-number{
+
+        .number{
+            font-size: 32px;
+        }
     }
 }
 

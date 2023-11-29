@@ -21,12 +21,12 @@
       "resources/js/components/Main/RoadMap.vue",
       "resources/js/components/Admin/User/Login.vue"
     ],
-    "file": "assets/app-b3839823.js",
+    "file": "assets/app-ee6ca037.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },
   "resources/js/components/Admin/Algorithm/Index.vue": {
-    "file": "assets/Index-a4dbe776.js",
+    "file": "assets/Index-be022771.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -34,7 +34,7 @@
     "src": "resources/js/components/Admin/Algorithm/Index.vue"
   },
   "resources/js/components/Admin/Card/Index.vue": {
-    "file": "assets/Index-5f490048.js",
+    "file": "assets/Index-9cebcdcc.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -42,7 +42,7 @@
     "src": "resources/js/components/Admin/Card/Index.vue"
   },
   "resources/js/components/Admin/Feedback/Index.vue": {
-    "file": "assets/Index-4b53eb2d.js",
+    "file": "assets/Index-a79118af.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -50,7 +50,7 @@
     "src": "resources/js/components/Admin/Feedback/Index.vue"
   },
   "resources/js/components/Admin/Roadmap/Index.vue": {
-    "file": "assets/Index-9d661966.js",
+    "file": "assets/Index-acef2c1d.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -58,7 +58,7 @@
     "src": "resources/js/components/Admin/Roadmap/Index.vue"
   },
   "resources/js/components/Admin/Screenshot/Index.vue": {
-    "file": "assets/Index-87a4994f.js",
+    "file": "assets/Index-dd74a951.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -66,7 +66,7 @@
     "src": "resources/js/components/Admin/Screenshot/Index.vue"
   },
   "resources/js/components/Admin/User/Login.vue": {
-    "file": "assets/Login-c721de0b.js",
+    "file": "assets/Login-abbbac3c.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -74,7 +74,7 @@
     "src": "resources/js/components/Admin/User/Login.vue"
   },
   "resources/js/components/Admin/Version/Index.vue": {
-    "file": "assets/Index-c500af98.js",
+    "file": "assets/Index-6dc49843.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -82,7 +82,7 @@
     "src": "resources/js/components/Admin/Version/Index.vue"
   },
   "resources/js/components/Admin/Worker/Index.vue": {
-    "file": "assets/Index-407a5c5f.js",
+    "file": "assets/Index-6bae7140.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -90,7 +90,7 @@
     "src": "resources/js/components/Admin/Worker/Index.vue"
   },
   "resources/js/components/Main/Company.vue": {
-    "file": "assets/Company-2adb68f7.js",
+    "file": "assets/Company-2ee0c04d.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -98,7 +98,7 @@
     "src": "resources/js/components/Main/Company.vue"
   },
   "resources/js/components/Main/Download.vue": {
-    "file": "assets/Download-71a5cb5f.js",
+    "file": "assets/Download-26e5847c.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -106,7 +106,7 @@
     "src": "resources/js/components/Main/Download.vue"
   },
   "resources/js/components/Main/RoadMap.vue": {
-    "file": "assets/RoadMap-b199be17.js",
+    "file": "assets/RoadMap-81fc4008.js",
     "imports": [
       "resources/js/app.js"
     ],
@@ -114,7 +114,7 @@
     "src": "resources/js/components/Main/RoadMap.vue"
   },
   "resources/sass/app.scss": {
-    "file": "assets/app-14e82282.css",
+    "file": "assets/app-db0875fd.css",
     "isEntry": true,
     "src": "resources/sass/app.scss"
   }

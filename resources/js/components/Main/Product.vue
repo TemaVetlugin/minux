@@ -77,7 +77,7 @@
                     >
                         <template v-for="screenshot in screenshots">
                         <swiper-slide>
-                            <div class="ts-swiper dark"><img :src="'/storage/'+screenshot.main_image" alt="No Image">
+                            <div class="ts-swiper dark"><img :src="'/storage/'+screenshot.main_image" class="slider-inner__image" alt="No Image">
                             </div>
                         </swiper-slide>
                         </template>
@@ -98,6 +98,16 @@
                 {{ this.countAlgorithms }}
             </h2></div>
 
+        </section>
+
+        <section class="product-items product-items--flex">
+            <div class="item-number item-image">
+                <a href="https://fasie.ru/" class="text-white"><img class="product-items__image" src="/images/FSI.svg" alt="logo"></a>
+            </div>
+            <div class="item-descr">
+                <span
+                   class="item-descr-link">Проект создан в рамках федерального проекта "Платформа университетского технологического предпринимательства</span>
+            </div>
         </section>
 
     </div>

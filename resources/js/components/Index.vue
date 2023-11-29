@@ -56,7 +56,7 @@
                                 <a href="https://sbi.tusur.ru/" class="text-white "><img class="logo p-1" src="/images/SBI.png" alt="logo"></a>
                             </li>
                             <li>
-                                <a href="https://fasie.ru/" class="text-white"><img class="logo p-1" src="/images/FSI.svg" alt="logo"></a>
+                                <a href="https://fasie.ru/" class="text-white"><img class="logo logo--large p-1" src="/images/FSI.svg" alt="logo"></a>
                             </li>
                         </ul>
                     </div>
